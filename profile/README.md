@@ -1,5 +1,3 @@
-<img src="https://github.com/openyardage/.github/raw/main/profile/oy-mark.png" alt="" width="96" align="right">
-
 # OpenYardage
 
 [OpenYardage](https://openyardage.com) makes yardage books from

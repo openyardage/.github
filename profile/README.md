@@ -3,7 +3,8 @@
 # OpenYardage
 
 [OpenYardage](https://openyardage.com) makes yardage books from
-OpenStreetMap: distances, hazards and elevation hole by hole, free to print.
+OpenStreetMap and open elevation data: distances, hazards and elevation
+hole by hole, free to print.
 Here are the projects we develop in the open.
 
 ## Projects
@@ -17,7 +18,7 @@ Here are the projects we develop in the open.
 
 - Questions, wrong data and ideas: open an issue in the project's
   repository. Its `CONTRIBUTING.md` says what helps most.
-- A green or bunker in the wrong place on OpenYardage comes from
+- A green, bunker or hole in the wrong place on OpenYardage comes from
   OpenStreetMap. [Fix it there](https://www.openstreetmap.org/fixthemap);
   OpenYardage picks the change up with its next data update.
 - Security problems: report them privately, as the repository's

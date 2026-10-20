@@ -1,0 +1,22 @@
+name: Bug
+description: Something does not work as described.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected and what you got instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repeat
+    attributes:
+      label: How to repeat it
+      description: A command, a request or the steps that show the problem. Paste output as text, not as a screenshot.
+      render: text
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Commit, release or date of the files you used.

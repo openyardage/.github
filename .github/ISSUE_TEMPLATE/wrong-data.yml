@@ -1,0 +1,26 @@
+name: Wrong data
+description: A value in one of our data sets looks wrong.
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Course shapes such as greens, bunkers and holes come from OpenStreetMap. If one of them is wrong, [fix it there](https://www.openstreetmap.org/fixthemap); this form is for the data of the projects here.
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: Course, hole and date, or the file and line.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What is wrong
+      description: The value you see and the value you expect.
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: How you know
+      description: A measurement, a photo, the club's pin sheet. Leave out anything you may not share publicly.

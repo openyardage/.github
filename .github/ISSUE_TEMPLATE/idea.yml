@@ -1,0 +1,16 @@
+name: Idea
+description: Something new, or a change to how something works.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: need
+    attributes:
+      label: What you need
+      description: The problem from your side, before any solution.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What you suggest
+      description: Optional. How you would solve it.

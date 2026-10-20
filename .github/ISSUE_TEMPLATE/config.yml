@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Wrong course on openyardage.com
+    url: https://www.openstreetmap.org/fixthemap
+    about: Greens, bunkers and holes come from OpenStreetMap. Fix them there.
+  - name: Anything else about openyardage.com
+    url: https://openyardage.com
+    about: Questions about the website go to info@openyardage.com.
